@@ -9,7 +9,7 @@
 ## Respon Radio
 
 *   **On Duty**: This is rookie rehan gosep reporting 10-41 at alta station
-*   **Start Patroli**: Dispatch, this is 73514 timing up with {badge number partner}, start of watch under those charger {tipe kendaraan} clearing all from 10-20 {dari mana} and now checking callsign to {badge number tujuan di lokasi}
+*   **Start Patroli**: Dispatch, this is 73514 timing up with {badge number partner}, start of watch under those charger {tipe kendaraan} clearing all from 10-20 {dari mana} and now checking callsign to {badge number tujuan yang di lokasi}
 
 ## Mantra
 
