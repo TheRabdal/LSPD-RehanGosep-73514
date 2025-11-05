@@ -27,4 +27,5 @@
 *   Angkat Tangan: `handsup`
 *   Tangan Dibelakang: `airforce3` atau `valet3`
 *   Jongkok: `kneel2`
+*   Peluk: `hug`
 *   Kerja Otomatis: `autoharvest`
