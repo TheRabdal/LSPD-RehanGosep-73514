@@ -33,6 +33,9 @@ kamu berhak untuk diam, apapun yang kamu katakan dapat digunakan untuk melawan a
 *   Buka Radio          : `/radio`
 *   Menjarakan Tawanan  : `/jail "userID" "waktu"`
 *   Menyalakan Radar    : `/radar`
+*   - otot U untuk melihat dispatch
+*   - otot I untuk memindahkan
+
 
 
 ## Emote
