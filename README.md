@@ -77,7 +77,7 @@ kamu berhak untuk diam, apapun yang kamu katakan dapat digunakan untuk melawan a
 *   **Pengejaran Narkotika**    : 73 adam 514 no doing 10-57 on suspect with 10-60 {tipe kendaraan} with {warna kendaraan} color activity 10-34 suspect at {lokasi}. suspect still on {lokasi}, heading to {tujuan lokasi} maybe
 
 
-## Respon Kode
+## Kode Respon
 *   Kode 0  : Situasi Sangat Darurat!!!
 *   Kode 1  : nonDarurat - sirene OFF dan lampu OFF
 *   Kode 2  : Merespons Darurat - sirene OFF dan lampu ON
@@ -86,6 +86,97 @@ kamu berhak untuk diam, apapun yang kamu katakan dapat digunakan untuk melawan a
 *   Kode 5  : Detektif sedang diselidiki
 *   Kode 6  : Menyelidiki lokasi kejadian
 *   Kode 7  : Istirahat
+
+
+## Kode Identitas (IC)
+*   IC1. Putih
+*   IC2. Hitam
+*   IC3. Hispanik
+*   IC4. Timur Tengah
+*   IC5. Asia
+*   IC6. Etnis tidak diketahui
+
+
+## Plain English
+*   “Shots fired.” Tembakan dilepaskan di lokasi
+*   “Officer needs help.” Petugas dalam bahaya langsung (tertembak, dll.)
+*   “Negative.” Tidak
+*   “Officer down.” Petugas tidak berdaya
+*   “Suspect deceased.” Tersangka meninggal
+*   “Suspect tased.” Tersangka telah ditundukkan
+*   “Be on the lookout.” Orang yang dibutuhkan untuk diinterogasi
+*   “All-points bulletin.” Tersangka ingin pemberitahuan
+
+
+## Daftar Singkatan Radio
+*   ADW - Assault with a Deadly Weapon.
+*   ALS - Advanced Life Support.
+*   ASAP - As Soon As Possible.
+*   BLS - Basic Life Support.
+*   BOLO - Be On the Look Out.
+*   CCW - Carrying a Concealed Weapon.
+*   DOA - Dead On Arrival.
+*   DOB - Date of Birth.
+*   DOC - Department of Corrections.
+*   DUI - Driving Under the Influence.
+*   EMS - Emergency Medical Services.
+*   FTO - Field Training Officer.
+*   GOV - Government.
+*   GSW - Gun Shot Wound.
+*   LVC - Lost Visual Contact
+*   LEO - Law Enforcement Officer.
+*   LOS - Length of Service.
+*   MDT - Mobile Data Terminal.
+*   PIT - Pursuit Immobilization Technique.
+*   POV - Privately-Owned Vehicle.
+*   R&U - Read and Understand.
+*   SIW - Standard-Issue Weapon.
+*   VCB - Visual Contact Broken
+
+
+## Sistem Callsign
+*   High Command = STAFF
+*   Command = VICTOR
+*   SPV - NCO ( Partner ) = ADAM
+*   SPV - NCO ( Solo ) = LINCOLN
+*   Interceptor = HENRY
+*   Interceptor HC = GOLF
+*   Motorcycle = MARY
+*   Metro = DAVID
+*   Bearcat = BEAST
+*   K9 Unit = NORA
+*   ASD = AIR
+*   ASD High Command = AIR-STAFF
+*   Detective = GEORGE
+
+
+# Alfabet Fonetik Penegak Hukum
+*   A - ADAM
+*   B - BRAVO
+*   C - CHARLIE
+*   D - DELTA
+*   E - EDWARD
+*   F - FRANK
+*   G - GEORGE
+*   H - HENRY
+*   I - IDA
+*   J - JOHN
+*   K - KING
+*   L - LINCOLN
+*   M - MARY
+*   N - NORA
+*   O - OCEAN
+*   P - PAUL
+*   Q - QUEEN
+*   R - ROBERT
+*   S - SAM
+*   T - TOM
+*   U - UNION
+*   V - VICTOR
+*   W - WILLIAM
+*   X - X-RAY
+*   Y - YOUNG
+*   Z - ZEBRA
 
 
 ## Mantra
