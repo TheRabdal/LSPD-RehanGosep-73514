@@ -194,12 +194,12 @@ Kamu berhak untuk diam, apapun yang kamu katakan dapat digunakan untuk melawan a
 
 
 ## Mantra
-*   On/Off Duty         : `/aduty`
-*   Buka Radio          : `/radio`
-*   Penjara Tawanan     : `/jail "userID" "waktu"`
-*   Menyalakan Radar    : `/radar`
-*   - Didalam mobil otot U untuk melihat dispatch
-*   - Didalam mobil otot I untuk memindahkan
+*   On/Off Duty         : `aduty`
+*   Buka Radio          : `radio`
+*   Penjara Tawanan     : `jail "userID" "waktu"`
+*   Menyalakan Radar    : `radar`
+*   - Didalam mobil otot `U` untuk melihat dispatch
+*   - Didalam mobil otot `I` untuk memindahkan
 
 
 ## Emote
@@ -210,6 +210,7 @@ Kamu berhak untuk diam, apapun yang kamu katakan dapat digunakan untuk melawan a
 *   Tangan Dikepala     : `surrander`
 *   Angkat Tangan       : `handsup`
 *   Tangan Dibelakang   : `airforce3` atau `valet3`
+*   Tangan Sopan        : `guard`
 *   Jongkok             : `kneel2`
 *   Peluk               : `hug`
 *   Kerja Otomatis      : `autoharvest`
