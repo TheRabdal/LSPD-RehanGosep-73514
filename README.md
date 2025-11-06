@@ -29,7 +29,7 @@ kamu berhak untuk diam, apapun yang kamu katakan dapat digunakan untuk melawan a
 
 
 ## Mantra
-*   On/Off Duty         : `aduty`
+*   On/Off Duty         : `/aduty`
 *   Buka Radio          : `/radio`
 *   Menyalakan Radar    : `/radar`
 *   - Didalam mobil otot U untuk melihat dispatch
