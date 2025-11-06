@@ -17,9 +17,27 @@
             <h1 class="badge-number">73514</h1>
             <p>Rehan Gosep adalah seorang officer polisi berpangkat Rookie dengan badge number 73514, beliau mengabdi di Los Santos Police Departeman sejak 25 Oktober 2025.</p>
             <p><a href="screens/dashboard.html" class="button">ON Duty!</a></p>
-            <!-- Dynamic date and time was here. Replaced with static date for HTML conversion. -->
-            <p class="current-datetime">00:00:00 GMT, Friday, 07 November 2025</p>
+            <p class="current-datetime"><span id="realtime-datetime"></span></p>
         </div>
     </div>
+    <script>
+        function updateRealtimeDatetime() {
+            const now = new Date();
+            const options = {
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit',
+                timeZoneName: 'short',
+                weekday: 'long',
+                day: '2-digit',
+                month: 'long',
+                year: 'numeric'
+            };
+            const formattedDatetime = now.toLocaleDateString('en-US', options);
+            document.getElementById('realtime-datetime').textContent = formattedDatetime;
+        }
+        setInterval(updateRealtimeDatetime, 1000);
+        updateRealtimeDatetime(); // Initial call to display immediately
+    </script>
 </body>
 </html>
