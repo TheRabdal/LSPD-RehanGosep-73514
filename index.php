@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Los Santos Police Department</title>
+    <title>LSPD Field Guide</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,69 +16,23 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#">LSPD</a>
+            <a class="navbar-brand fw-bold" href="#">LSPD Field Guide</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#mission">Our Mission</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#divisions">Divisions</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#news">Latest News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#resources">Resources</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <header id="hero" class="hero-section">
-        <div class="hero-content">
-            <h1 class="display-4 fw-bold">Los Santos Police Department</h1>
-            <p class="lead my-4">To Protect and to Serve the people of Los Santos.</p>
-            <a href="#" class="btn btn-primary btn-lg rounded-pill px-4 mx-2">File a Report</a>
-            <a href="#" class="btn btn-outline-light btn-lg rounded-pill px-4 mx-2">Join The Force</a>
-        </div>
-    </header>
-
-    <!-- Bento Grid Section -->
-    <section id="bento" class="section">
-        <div class="container">
-            <div class="bento-grid">
-                <div class="bento-item card p-4" style="grid-column: span 2; grid-row: span 2;">
-                    <h3>Our Mission</h3>
-                    <p class="lead text-muted">To safeguard the lives and property of the people we serve, to reduce the incidence and fear of crime, and to enhance public safety while working with the diverse communities to improve their quality of life.</p>
-                </div>
-                <div class="bento-item card p-4 text-center">
-                    <i class="bi bi-shield-shaded fs-1 text-primary"></i>
-                    <h5 class="mt-2">Patrol Division</h5>
-                </div>
-                <div class="bento-item card p-4 text-center">
-                    <i class="bi bi-search fs-1 text-primary"></i>
-                    <h5 class="mt-2">Detective Bureau</h5>
-                </div>
-                <div class="bento-item card p-4 text-center">
-                    <i class="bi bi-airplane fs-1 text-primary"></i>
-                    <h5 class="mt-2">Air Support</h5>
-                </div>
-                <div class="bento-item card p-4 text-center">
-                    <i class="bi bi-person-plus-fill fs-1 text-primary"></i>
-                    <h5 class="mt-2">Join The Force</h5>
-                    <p class="text-muted">Start your career in law enforcement today.</p>
-                </div>
-                <div class="bento-item card p-4" style="grid-column: span 2;">
-                    <h5>Latest News: Community Policing Initiative</h5>
-                    <p class="text-muted">LSPD launches a new initiative to strengthen ties with local communities through regular town halls and outreach programs. <a href="#">Read More</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- README Content Section -->
     <section id="resources" class="section">
         <div class="container">
-            <h2 class="text-center mb-5">Field Guide & Resources</h2>
+            <h2 class="text-center mb-5">LSPD Field Guide & Resources</h2>
 
             <!-- Search Bar -->
             <div class="mb-4">
@@ -98,6 +52,24 @@
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="radio-tab" data-bs-toggle="tab" data-bs-target="#radio" type="button" role="tab">Radio Response</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="response-codes-tab" data-bs-toggle="tab" data-bs-target="#response-codes" type="button" role="tab">Response Codes</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="identity-codes-tab" data-bs-toggle="tab" data-bs-target="#identity-codes" type="button" role="tab">Identity Codes</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="plain-english-tab" data-bs-toggle="tab" data-bs-target="#plain-english" type="button" role="tab">Plain English</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="radio-abbreviations-tab" data-bs-toggle="tab" data-bs-target="#radio-abbreviations" type="button" role="tab">Radio Abbreviations</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="callsign-system-tab" data-bs-toggle="tab" data-bs-target="#callsign-system" type="button" role="tab">Callsign System</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="phonetic-alphabet-tab" data-bs-toggle="tab" data-bs-target="#phonetic-alphabet" type="button" role="tab">Phonetic Alphabet</button>
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="commands-tab" data-bs-toggle="tab" data-bs-target="#commands" type="button" role="tab">Commands</button>
@@ -121,13 +93,13 @@
                     <h5>English</h5>
                     <p class="miranda-text">You have the right to remain silent. Anything you say can and will be used against you in a court of law. You have a right to an attorney. If you cannot afford an attorney, one will be appointed for you.</p>
                     <h5>Indonesia</h5>
-                    <p class="miranda-text">kamu berhak untuk diam, apapun yang kamu katakan dapat digunakan untuk melawan anda dan dibawa ke pengadilan. Anda berhak untuk menunjuk pengacara. jika tidak ada maka kami akan menentukan seorang pengacara untuk anda.</p>
+                    <p class="miranda-text">Anda berhak untuk diam. Apapun yang Anda katakan dapat dan akan digunakan untuk melawan Anda di pengadilan. Anda berhak atas seorang pengacara. Jika Anda tidak mampu membayar seorang pengacara, seorang akan ditunjuk untuk Anda.</p>
                 </div>
                 <div class="tab-pane" id="codes" role="tabpanel">
                     <h3>Ten Codes</h3>
                     <div class="ten-codes-grid">
                         <ul>
-                            <li>10-1: Temui saya di__</li>
+                            <li>10-1: Temui saya di [Lokasi]</li>
                             <li>10-2: Sinyal bagus</li>
                             <li>10-3: Hentikan Transmisi</li>
                             <li>10-4: Roger That (OK)</li>
@@ -142,7 +114,7 @@
                             <li>10-18: Cepat</li>
                             <li>10-20: Lokasi</li>
                             <li>10-22: Batal</li>
-                            <li>10-23: Tiba di lokasi ...</li>
+                            <li>10-23: Tiba di lokasi [Lokasi]</li>
                             <li>10-28: Plat Informasi</li>
                             <li>10-29: Memeriksa Catatan Kriminal</li>
                             <li>10-31a: Kejahatan sedang berlangsung (perampokan rumah)</li>
@@ -164,7 +136,7 @@
                             <li>10-70: Kebakaran Sedang Berlangsung</li>
                             <li>10-71: Tembakan Dilepaskan</li>
                             <li>10-74: Negatif</li>
-                            <li>10-76: Dalam Perjalanan__</li>
+                            <li>10-76: Dalam Perjalanan ke [Lokasi]</li>
                             <li>10-77: Butuh Bantuan (Bukan keadaan darurat)</li>
                             <li>10-78: Butuh Bantuan (Darurat)</li>
                             <li>10-80: Petugas dalam Bahaya, tidak dapat merespons</li>
@@ -181,10 +153,124 @@
                 <div class="tab-pane" id="radio" role="tabpanel">
                     <h3>Respon Radio</h3>
                     <ul>
-                        <li><strong>On Duty</strong>: This is rookie rehan gosep reporting 10-41 at alta station</li>
-                        <li><strong>Start Patroli</strong>: This is 73 Adam 514. We are 10-8 and ready for future update</li>
-                        <li><strong>Respons Situasi</strong>: Dispatch, this is 73514 timing up with {badge number partner}, start of watch under those charger {tipe kendaraan} clearing all from 10-20 {dari mana} and now checking callsign to {badge number dilokasi}</li>
-                        <li><strong>Pengejaran Narkotika</strong>: 73 adam 514 no doing 10-57 on suspect with 10-60 {tipe kendaraan} with {warna kendaraan} color activity 10-34 suspect at {lokasi}. suspect still on {lokasi}, heading to {tujuan lokasi} maybe</li>
+                        <li><strong>On Duty</strong>: This is [Rank] [Nama] reporting 10-41 at [Lokasi]</li>
+                        <li><strong>Start Patroli</strong>: This is [Callsign]. We are 10-8 and ready for future update</li>
+                        <li><strong>Respons Situasi</strong>: Dispatch, this is [Callsign] timing up with [Badge Number Partner], start of watch under those charger [Tipe Kendaraan] clearing all from 10-20 [Dari Mana] and now checking callsign to [Badge Number di Lokasi]</li>
+                        <li><strong>Pengejaran Narkotika</strong>: [Callsign] no doing 10-57 on suspect with 10-60 [Tipe Kendaraan] with [Warna Kendaraan] color activity 10-34 suspect at [Lokasi]. suspect still on [Lokasi], heading to [Tujuan Lokasi] maybe</li>
+                    </ul>
+                </div>
+                <div class="tab-pane" id="response-codes" role="tabpanel">
+                    <h3>Kode Respon</h3>
+                    <ul>
+                        <li><strong>Kode 0</strong>: Situasi Sangat Darurat!!!</li>
+                        <li><strong>Kode 1</strong>: non-Darurat - sirene OFF dan lampu OFF</li>
+                        <li><strong>Kode 2</strong>: Merespons Darurat - sirene OFF dan lampu ON</li>
+                        <li><strong>Kode 3</strong>: Menanggapi Darurat - sirene ON dan lampu ON</li>
+                        <li><strong>Kode 4</strong>: Situasi terkendali, tanpa bantuan</li>
+                        <li><strong>Kode 5</strong>: Detektif sedang diselidiki</li>
+                        <li><strong>Kode 6</strong>: Menyelidiki lokasi kejadian</li>
+                        <li><strong>Kode 7</strong>: Istirahat</li>
+                    </ul>
+                </div>
+                <div class="tab-pane" id="identity-codes" role="tabpanel">
+                    <h3>Kode Identitas (IC)</h3>
+                    <ul>
+                        <li><strong>IC1</strong>: Putih</li>
+                        <li><strong>IC2</strong>: Hitam</li>
+                        <li><strong>IC3</strong>: Hispanik</li>
+                        <li><strong>IC4</strong>: Timur Tengah</li>
+                        <li><strong>IC5</strong>: Asia</li>
+                        <li><strong>IC6</strong>: Etnis tidak diketahui</li>
+                    </ul>
+                </div>
+                <div class="tab-pane" id="plain-english" role="tabpanel">
+                    <h3>Plain English</h3>
+                    <ul>
+                        <li><strong>Shots fired</strong>: Tembakan dilepaskan di lokasi</li>
+                        <li><strong>Officer needs help</strong>: Petugas dalam bahaya langsung (tertembak, dll.)</li>
+                        <li><strong>Negative</strong>: Tidak</li>
+                        <li><strong>Officer down</strong>: Petugas tidak berdaya</li>
+                        <li><strong>Suspect deceased</strong>: Tersangka meninggal</li>
+                        <li><strong>Suspect tased</strong>: Tersangka telah ditundukkan</li>
+                        <li><strong>Be on the lookout</strong>: Orang yang dibutuhkan untuk diinterogasi</li>
+                        <li><strong>All-points bulletin</strong>: Tersangka ingin pemberitahuan</li>
+                    </ul>
+                </div>
+                <div class="tab-pane" id="radio-abbreviations" role="tabpanel">
+                    <h3>Daftar Singkatan Radio</h3>
+                    <ul>
+                        <li><strong>ADW</strong>: Assault with a Deadly Weapon</li>
+                        <li><strong>ALS</strong>: Advanced Life Support</li>
+                        <li><strong>ASAP</strong>: As Soon As Possible</li>
+                        <li><strong>BLS</strong>: Basic Life Support</li>
+                        <li><strong>BOLO</strong>: Be On the Look Out</li>
+                        <li><strong>CCW</strong>: Carrying a Concealed Weapon</li>
+                        <li><strong>DOA</strong>: Dead On Arrival</li>
+                        <li><strong>DOB</strong>: Date of Birth</li>
+                        <li><strong>DOC</strong>: Department of Corrections</li>
+                        <li><strong>DUI</strong>: Driving Under the Influence</li>
+                        <li><strong>EMS</strong>: Emergency Medical Services</li>
+                        <li><strong>FTO</strong>: Field Training Officer</li>
+                        <li><strong>GOV</strong>: Government</li>
+                        <li><strong>GSW</strong>: Gun Shot Wound</li>
+                        <li><strong>LVC</strong>: Lost Visual Contact</li>
+                        <li><strong>LEO</strong>: Law Enforcement Officer</li>
+                        <li><strong>LOS</strong>: Length of Service</li>
+                        <li><strong>MDT</strong>: Mobile Data Terminal</li>
+                        <li><strong>PIT</strong>: Pursuit Immobilization Technique</li>
+                        <li><strong>POV</strong>: Privately-Owned Vehicle</li>
+                        <li><strong>R&U</strong>: Read and Understand</li>
+                        <li><strong>SIW</strong>: Standard-Issue Weapon</li>
+                        <li><strong>VCB</strong>: Visual Contact Broken</li>
+                    </ul>
+                </div>
+                <div class="tab-pane" id="callsign-system" role="tabpanel">
+                    <h3>Sistem Callsign</h3>
+                    <ul>
+                        <li><strong>High Command</strong>: STAFF</li>
+                        <li><strong>Command</strong>: VICTOR</li>
+                        <li><strong>SPV - NCO (Partner)</strong>: ADAM</li>
+                        <li><strong>SPV - NCO (Solo)</strong>: LINCOLN</li>
+                        <li><strong>Interceptor</strong>: HENRY</li>
+                        <li><strong>Interceptor HC</strong>: GOLF</li>
+                        <li><strong>Motorcycle</strong>: MARY</li>
+                        <li><strong>Metro</strong>: DAVID</li>
+                        <li><strong>Bearcat</strong>: BEAST</li>
+                        <li><strong>K9 Unit</strong>: NORA</li>
+                        <li><strong>ASD</strong>: AIR</li>
+                        <li><strong>ASD High Command</strong>: AIR-STAFF</li>
+                        <li><strong>Detective</strong>: GEORGE</li>
+                    </ul>
+                </div>
+                <div class="tab-pane" id="phonetic-alphabet" role="tabpanel">
+                    <h3>Alfabet Fonetik Penegak Hukum</h3>
+                    <ul>
+                        <li><strong>A</strong>: ADAM</li>
+                        <li><strong>B</strong>: BOY</li>
+                        <li><strong>C</strong>: CHARLES</li>
+                        <li><strong>D</strong>: DAVID</li>
+                        <li><strong>E</strong>: EDWARD</li>
+                        <li><strong>F</strong>: FRANK</li>
+                        <li><strong>G</strong>: GEORGE</li>
+                        <li><strong>H</strong>: HENRY</li>
+                        <li><strong>I</strong>: IDA</li>
+                        <li><strong>J</strong>: JOHN</li>
+                        <li><strong>K</strong>: KING</li>
+                        <li><strong>L</strong>: LINCOLN</li>
+                        <li><strong>M</strong>: MARY</li>
+                        <li><strong>N</strong>: NORA</li>
+                        <li><strong>O</strong>: OCEAN</li>
+                        <li><strong>P</strong>: PAUL</li>
+                        <li><strong>Q</strong>: QUEEN</li>
+                        <li><strong>R</strong>: ROBERT</li>
+                        <li><strong>S</strong>: SAM</li>
+                        <li><strong>T</strong>: TOM</li>
+                        <li><strong>U</strong>: UNION</li>
+                        <li><strong>V</strong>: VICTOR</li>
+                        <li><strong>W</strong>: WILLIAM</li>
+                        <li><strong>X</strong>: X-RAY</li>
+                        <li><strong>Y</strong>: YOUNG</li>
+                        <li><strong>Z</strong>: ZEBRA</li>
                     </ul>
                 </div>
                 <div class="tab-pane" id="commands" role="tabpanel">
@@ -192,7 +278,7 @@
                     <ul>
                         <li>On/Off Duty: <code>/aduty</code></li>
                         <li>Buka Radio: <code>/radio</code></li>
-                        <li>Penjara Tawanan: <code>/jail "userID" "waktu"</code></li>
+                        <li>Penjara Tawanan: <code>/jail [User ID] [Waktu]</code></li>
                     </ul>
 
                     <h3>Mantra Mobil</h3>
@@ -204,44 +290,26 @@
 
                     <h3>Emote</h3>
                     <ul>
-                        <li>Basic Life Support: <code>medbag</code> atau <code>cpr</code></li>
-                        <li>Layer Film: <code>cinematic</code></li>
-                        <li>Mediasi: <code>meditate</code></li>
-                        <li>Tangan Sombong: <code>crossarms3</code></li>
-                        <li>Tangan Dikepala: <code>surrander</code></li>
-                        <li>Angkat Tangan: <code>handsup</code></li>
+                        <li>Basic Life Support: <code>/e medbag</code> atau <code>/e cpr</code></li>
+                        <li>Layer Film: <code>/e cinematic</code></li>
+                        <li>Mediasi: <code>/e meditate</code></li>
+                        <li>Tangan Sombong: <code>/e crossarms3</code></li>
+                        <li>Tangan Dikepala: <code>/e surrander</code></li>
+                        <li>Angkat Tangan: <code>/e handsup</code></li>
+                        <li>Tangan Dibelakang: <code>/e airforce3</code> atau <code>/e valet3</code></li>
+                        <li>Jongkok: <code>/e kneel2</code></li>
+                        <li>Peluk: <code>/e hug</code></li>
+                        <li>Kerja Otomatis: <code>/e autoharvest</code></li>
                     </ul>
                 </div>
             </div>
         </div>
 
     <!-- Footer -->
-    <footer id="contact" class="footer">
+    <footer id="contact" class="footer mt-auto py-3 bg-dark">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4 mb-4 mb-lg-0">
-                    <h5 class="text-uppercase mb-4">LSPD</h5>
-                    <p>123 Police Plaza, Los Santos, SA 90210</p>
-                    <p>Emergency: 911<br>Non-Emergency: 311</p>
-                </div>
-                <div class="col-lg-4 mb-4 mb-lg-0">
-                    <h5 class="text-uppercase mb-4">Quick Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">File a Report</a></li>
-                        <li><a href="#">Crime Stats</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-4">
-                    <h5 class="text-uppercase mb-4">Follow Us</h5>
-                    <a href="#" class="fs-4 me-3"><i class="bi bi-twitter"></i></a>
-                    <a href="#" class="fs-4 me-3"><i class="bi bi-facebook"></i></a>
-                    <a href="#" class="fs-4 me-3"><i class="bi bi-instagram"></i></a>
-                </div>
-            </div>
-            <div class="text-center mt-5 border-top border-secondary pt-4">
-                <p>&copy; 2025 Los Santos Police Department. All Rights Reserved.</p>
+            <div class="text-center">
+                <p class="text-white">&copy; 2025 LSPD Field Guide. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
@@ -250,3 +318,4 @@
     <script src="js/script.js"></script>
 </body>
 </html>
+

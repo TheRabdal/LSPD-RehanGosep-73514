@@ -3,54 +3,14 @@ body {
     background-color: #1a1a1a; /* Dark background */
     color: #f8f9fa;
     line-height: 1.6;
+    padding-top: 56px; /* Add padding to body for fixed navbar */
 }
 .navbar {
     background-color: rgba(0, 0, 0, 0.7) !important;
     backdrop-filter: blur(10px);
 }
-.hero-section {
-    background: linear-gradient(45deg, #007bff, #00d4ff);
-    color: white;
-    padding: 120px 0;
-    text-align: center;
-    position: relative;
-}
-.hero-content h1 {
-    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
-}
 .section {
     padding: 60px 0;
-}
-.bento-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 1.5rem;
-}
-.bento-item {
-    background: rgba(255, 255, 255, 0.05); /* Glassmorphism background */
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 1rem;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    transition: transform 0.3s, box-shadow 0.3s;
-    color: #f8f9fa;
-    padding: 1.5rem;
-}
-.bento-item:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.5);
-}
-.footer {
-    background-color: #000;
-    color: white;
-    padding: 40px 0;
-}
-.footer a {
-    color: #adb5bd;
-    text-decoration: none;
-}
-.footer a:hover {
-    color: white;
 }
 #fieldGuideSearch {
     border-color: rgba(255, 255, 255, 0.2);
@@ -93,7 +53,7 @@ body {
     border-radius: 0.5rem;
 }
 
-.ten-codes-grid ul {
+.ten-codes-grid ul, #radio-abbreviations ul, #phonetic-alphabet ul {
     column-count: 3;
     column-gap: 2rem;
     list-style-position: inside;
@@ -101,13 +61,13 @@ body {
 }
 
 @media (max-width: 768px) {
-    .ten-codes-grid ul {
+    .ten-codes-grid ul, #radio-abbreviations ul, #phonetic-alphabet ul {
         column-count: 2;
     }
 }
 
 @media (max-width: 576px) {
-    .ten-codes-grid ul {
+    .ten-codes-grid ul, #radio-abbreviations ul, #phonetic-alphabet ul {
         column-count: 1;
     }
 }
