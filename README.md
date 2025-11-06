@@ -34,7 +34,7 @@ kamu berhak untuk diam, apapun yang kamu katakan dapat digunakan untuk melawan a
 *   Menyalakan Radar    : `/radar`
 *   - Didalam mobil otot U untuk melihat dispatch
 *   - Didalam mobil otot I untuk memindahkan
-*   Menjarakan Tawanan  : `/jail "userID" "waktu"`
+*   Penjara Tawanan     : `/jail "userID" "waktu"`
 
 
 
