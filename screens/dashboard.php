@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LSPD - Rehan Gosep</title>
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Los Santos Police Departement - Rehan Gosep - 73514</h1>
+        <p class="off-duty-button-wrapper"><a href="../index.php" class="button off-duty-button">Off Duty!</a></p>
+        <nav class="tabs">
+            <a href="#forum-sasp" class="tab-link active">Forum SASP</a>
+            <a href="#miranda-rights" class="tab-link">Miranda Rights</a>
+            <a href="#ten-codes" class="tab-link">Ten Codes</a>
+            <a href="#respons-radio" class="tab-link">Respons Radio</a>
+            <a href="#update-structure" class="tab-link">Update Structure</a>
+            <a href="#sistem-callsign" class="tab-link">Sistem Callsign</a>
+            <a href="#tanda-panggilan" class="tab-link">Tanda Panggilan</a>
+            <a href="#kode-respons" class="tab-link">Kode Respons</a>
+            <a href="#kode-identitas-ic" class="tab-link">Kode Identitas (IC)</a>
+            <a href="#plain-english" class="tab-link">Plain English</a>
+            <a href="#alfabet-fonetik" class="tab-link">Alfabet Fonetik Penegak Hukum</a>
+            <a href="#daftar-singkat-radio" class="tab-link">Daftar Singkat Radio</a>
+            <a href="#mantra" class="tab-link">Mantra</a>
+            <a href="#emote" class="tab-link">Emote</a>
+        </nav>
+        <div id="tab-content">
+            <div id="forum-sasp" class="tab-pane active">
+                <h2>Forum SASP</h2>
+                <ul>
+                    <li><strong>San Andreas State Police:</strong> <a href="https://sasp-motionliferp.com">https://sasp-motionliferp.com</a></li>
+                    <li><strong>LSPD Handbook:</strong> <a href="https://sasp-motionliferp.com/viewtopic.php?style=2&t=4">https://sasp-motionliferp.com/viewtopic.php?style=2&t=4</a></li>
+                    <li><strong>Departement Rooster:</strong> <a href="https://sasp-motionliferp.com/viewtopic.php?t=2">https://sasp-motionliferp.com/viewtopic.php?t=2</a></li>
+                    <li><strong>Patrol Report Rookie:</strong> <a href="https://sasp-motionliferp.com/viewforum.php?style=2&f=72">https://sasp-motionliferp.com/viewforum.php?style=2&f=72</a></li>
+                    <li><strong>Absence Notic:</strong> <a href="https://sasp-motionliferp.com/viewforum.php?f=76">https://sasp-motionliferp.com/viewforum.php?f=76</a></li>
+                    <li><strong>Warning Point:</strong> <a href="https://sasp-motionliferp.com/viewtopic.php?t=1456">https://sasp-motionliferp.com/viewtopic.php?t=1456</a></li>
+                </ul>
+            </div>
+            <div id="miranda-rights" class="tab-pane">
+                <h2>Miranda Rights</h2>
+                <h3>English</h3>
+                <p>You have the right to remain silent. Anything you say can and will be used against you in a court of law. You have a right to an attorney. If you cannot afford an attorney, one will be appointed for you.</p>
+                <h3>Indonesia</h3>
+                <p>Kamu berhak untuk diam, apapun yang kamu katakan dapat digunakan untuk melawan anda dan dibawa ke pengadilan. Anda berhak untuk menunjuk pengacara. jika tidak ada maka kami akan menentukan seorang pengacara untuk anda.</p>
+            </div>
+            <div id="ten-codes" class="tab-pane">
+                <h2>Ten Codes</h2>
+                <div class="ten-codes-two-columns">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Code</th>
+                                <th>Meaning</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>10-1</td><td>Temui saya di__</td></tr>
+                            <tr><td>10-2</td><td>Sinyal bagus</td></tr>
+                            <tr><td>10-3</td><td>Hentikan Transmisi</td></tr>
+                            <tr><td>10-4</td><td>Roger That (OK)</td></tr>
+                            <tr><td>10-7</td><td>Tidak Berfungsi</td></tr>
+                            <tr><td>10-8</td><td>Berfungsi</td></tr>
+                            <tr><td>10-9</td><td>Ulangi</td></tr>
+                            <tr><td>10-10</td><td>Perkelahian Sedang Berlangsung</td></tr>
+                            <tr><td>10-12</td><td>Siaga</td></tr>
+                            <tr><td>10-13A</td><td>Petugas Turun (Panggilan Darurat)</td></tr>
+                            <tr><td>10-13B</td><td>Petugas Turun (Panggilan Non Darurat)</td></tr>
+                            <tr><td>10-14</td><td>Ems Turun</td></tr>
+                            <tr><td>10-18</td><td>Cepat</td></tr>
+                            <tr><td>10-20</td><td>Lokasi</td></tr>
+                            <tr><td>10-22</td><td>Batal</td></tr>
+                            <tr><td>10-23</td><td>Tiba di lokasi ...</td></tr>
+                            <tr><td>10-28</td><td>Plat Informasi</td></tr>
+                            <tr><td>10-29</td><td>Memeriksa Catatan Kriminal</td></tr>
+                            <tr><td>10-31a</td><td>Kejahatan sedang berlangsung (perampokan rumah)</td></tr>
+                            <tr><td>10-31b</td><td>Kejahatan Sedang Berlangsung (Perampokan Toko)</td></tr>
+                            <tr><td>10-32</td><td>Pria dengan Senjata Api</td></tr>
+                            <tr><td>10-34</td><td>Perilaku Mencurigakan (Narkotika)</td></tr>
+                            <tr><td>10-37</td><td>(Investigasi) Kendaraan Mencurigakan</td></tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Code</th>
+                                <th>Meaning</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>10-38</td><td>Menghentikan Kendaraan Mencurigakan (Kejahatan)</td></tr>
+                            <tr><td>10-41</td><td>Bertugas</td></tr>
+                            <tr><td>10-42</td><td>Tidak Bertugas</td></tr>
+                            <tr><td>10-45</td><td>Perburuan Ilegal</td></tr>
+                            <tr><td>10-47</td><td>Orang yang Terluka</td></tr>
+                            <tr><td>10-50</td><td>Kecelakaan</td></tr>
+                            <tr><td>10-52</td><td>EMS Dibutuhkan</td></tr>
+                            <tr><td>10-55</td><td>Penghentian Lalu Lintas</td></tr>
+                            <tr><td>10-57</td><td>Pengejaran Sedang Berlangsung</td></tr>
+                            <tr><td>10-60</td><td>Deskripsi Kendaraan</td></tr>
+                            <tr><td>10-61</td><td>Deskripsi Tersangka</td></tr>
+                            <tr><td>10-70</td><td>Kebakaran Sedang Berlangsung</td></tr>
+                            <tr><td>10-71</td><td>Tembakan Dilepaskan</td>
+                        </tr>
+                            <tr><td>10-74</td><td>Negatif</td></tr>
+                            <tr><td>10-76</td><td>Dalam Perjalanan__</td></tr>
+                            <tr><td>10-77</td><td>Butuh Bantuan (Bukan keadaan darurat)</td></tr>
+                            <tr><td>10-78</td><td>Butuh Bantuan (Darurat)</td></tr>
+                            <tr><td>10-80</td><td>Petugas dalam Bahaya, tidak dapat merespons</td></tr>
+                            <tr><td>10-89</td><td>Ancaman Bom</td></tr>
+                            <tr><td>10-90</td><td>Perampokan Sedang Berlangsung (Bank/Permata)</td></tr>
+                            <tr><td>10-94</td><td>Balapan Mobil Sedang Berlangsung</td></tr>
+                            <tr><td>10-95</td><td>Tahanan/Subjek dalam Tahanan</td></tr>
+                            <tr><td>10-97</td><td>Akses tidak sah</td></tr>
+                            <tr><td>10-98</td><td>Pembobolan Penjara</td></tr>
+                            <tr><td>10-99</td><td>Pembersihan</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="respons-radio" class="tab-pane">
+                <h2>Respons Radio</h2>
+                <ul>
+                    <li><strong>On Duty</strong>: This is rookie rehan gosep reporting 10-41 at alta station</li>
+                    <li><strong>Start Patroli</strong>: This is 73 Adam 514. We are 10-8 and ready for future update</li>
+                    <li><strong>Respons Situasi</strong>: Dispatch, this is 73514 timing up with {badge number partner}, start of watch under those charger {tipe kendaraan} clearing all from 10-20 {dari mana} and now checking callsign to {badge number dilokasi}</li>
+                    <li><strong>Pengejaran Narkotika</strong>: 73 adam 514 no doing 10-57 on suspect with 10-60 {tipe kendaraan} with {warna kendaraan} color activity 10-34 suspect at {lokasi}.
+                        <ul>
+                            <li>lanjutan > suspect still on {lokasi}, heading to {tujuan lokasi} maybe</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="update-structure" class="tab-pane">
+                <h2>Update Structure</h2>
+                <ul>
+                    <li><strong>Action (Tindakan)</strong>: contoh: belok kiri / heading</li>
+                    <li><strong>Arah mata angin</strong>: North (utara) / South (selatan) / East (timur) / West (barat)</li>
+                    <li><strong>Nama jalan</strong>: lokasi atau jalur</li>
+                    <li><strong>Informasi tambahan (opsional)</strong>: landmark, lalu lintas, deskripsi suspect</li>
+                </ul>
+            </div>
+            <div id="sistem-callsign" class="tab-pane">
+                <h2>Sistem Callsign</h2>
+                <div class="ten-codes-two-columns">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Unit Type</th>
+                                <th>Callsign</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>High Command</td><td>STAFF</td></tr>
+                            <tr><td>Command</td><td>VICTOR</td></tr>
+                            <tr><td>SPV - NCO ( Partner )</td><td>ADAM</td></tr>
+                            <tr><td>SPV - NCO ( Solo )</td><td>LINCOLN</td></tr>
+                            <tr><td>Interceptor</td><td>HENRY</td></tr>
+                            <tr><td>Interceptor HC</td><td>GOLF</td></tr>
+                            <tr><td>Motorcycle</td><td>MARY</td></tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Unit Type</th>
+                                <th>Callsign</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Metro</td><td>DAVID</td></tr>
+                            <tr><td>Bearcat</td><td>BEAST</td></tr>
+                            <tr><td>K9 Unit</td><td>NORA</td></tr>
+                            <tr><td>ASD</td><td>AIR</td></tr>
+                            <tr><td>ASD High Command</td><td>AIR-STAFF</td></tr>
+                            <tr><td>Detective</td><td>GEORGE</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="tanda-panggilan" class="tab-pane">
+                <h2>Tanda Panggilan</h2>
+                <ul>
+                    <li><strong>Solo (LINCOLN)</strong>: 73-Lincoln-14</li>
+                    <li><strong>Partner (ADAM)</strong>: 73-Adam-14</li>
+                </ul>
+                <p><strong>penggunaan</strong> : 73 adalah kode departement station, dan 14 kode terakhir callsign</p>
+            </div>
+            <div id="kode-respons" class="tab-pane">
+                <h2>Kode Respons</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Kode</th>
+                            <th>Meaning</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Kode 0</td><td>Situasi Sangat Darurat!!!</td></tr>
+                        <tr><td>Kode 1</td><td>nonDarurat - sirene OFF dan lampu OFF</td></tr>
+                        <tr><td>Kode 2</td><td>Merespons Darurat - sirene OFF dan lampu ON</td></tr>
+                        <tr><td>Kode 3</td><td>Menanggapi Darurat - sirene On dan lampu ON</td></tr>
+                        <tr><td>Kode 4</td><td>Situasi terkendali, tanpa bantuan</td></tr>
+                        <tr><td>Kode 5</td><td>Detektif sedang diselidiki</td></tr>
+                        <tr><td>Kode 6</td><td>Menyelidiki lokasi kejadian</td></tr>
+                        <tr><td>Kode 7</td><td>Istirahat</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="kode-identitas-ic" class="tab-pane">
+                <h2>Kode Identitas (IC)</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Code</th>
+                            <th>Meaning</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>IC1</td><td>Putih</td></tr>
+                        <tr><td>IC2</td><td>Hitam</td></tr>
+                        <tr><td>IC3</td><td>Hispanik</td></tr>
+                        <tr><td>IC4</td><td>Timur Tengah</td></tr>
+                        <tr><td>IC5</td><td>Asia</td></tr>
+                        <tr><td>IC6</td><td>Etnis tidak diketahui</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="plain-english" class="tab-pane">
+                <h2>Plain English</h2>
+                <ul>
+                    <li>“Shots fired” : Tembakan dilepaskan di lokasi</li>
+                    <li>“Officer needs help” : Petugas dalam bahaya langsung (tertembak, dll.)</li>
+                    <li>“Negative” : Tidak</li>
+                    <li>“Officer down” : Petugas tidak berdaya</li>
+                    <li>“Suspect deceased” : Tersangka meninggal</li>
+                    <li>“Suspect tased” : Tersangka telah ditundukkan</li>
+                    <li>“Be on the lookout” : Orang yang dibutuhkan untuk diinterogasi</li>
+                    <li>“All-points bulletin” : Tersangka ingin pemberitahuan</li>
+                </ul>
+            </div>
+            <div id="alfabet-fonetik" class="tab-pane">
+                <h2>Alfabet Fonetik Penegak Hukum</h2>
+                <div class="ten-codes-two-columns">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Letter</th>
+                                <th>Word</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>A</td><td>ADAM</td></tr>
+                            <tr><td>B</td><td>BRAVO</td></tr>
+                            <tr><td>C</td><td>CHARLIE</td></tr>
+                            <tr><td>D</td><td>DELTA</td></tr>
+                            <tr><td>E</td><td>EDWARD</td></tr>
+                            <tr><td>F</td><td>FRANK</td></tr>
+                            <tr><td>G</td><td>GEORGE</td></tr>
+                            <tr><td>H</td><td>HENRY</td></tr>
+                            <tr><td>I</td><td>IDA</td></tr>
+                            <tr><td>J</td><td>JOHN</td></tr>
+                            <tr><td>K</td><td>KING</td></tr>
+                            <tr><td>L</td><td>LINCOLN</td></tr>
+                            <tr><td>M</td><td>MARY</td></tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Letter</th>
+                                <th>Word</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>N</td><td>NORA</td></tr>
+                            <tr><td>O</td><td>OCEAN</td></tr>
+                            <tr><td>P</td><td>PAUL</td></tr>
+                            <tr><td>Q</td><td>QUEEN</td></tr>
+                            <tr><td>R</td><td>ROBERT</td></tr>
+                            <tr><td>S</td><td>SAM</td></tr>
+                            <tr><td>T</td><td>TOM</td></tr>
+                            <tr><td>U</td><td>UNION</td></tr>
+                            <tr><td>V</td><td>VICTOR</td></tr>
+                            <tr><td>W</td><td>WILLIAM</td></tr>
+                            <tr><td>X</td><td>X-RAY</td></tr>
+                            <tr><td>Y</td><td>YOUNG</td></tr>
+                            <tr><td>Z</td><td>ZEBRA</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="daftar-singkat-radio" class="tab-pane">
+                <h2>Daftar Singkat Radio</h2>
+                <div class="ten-codes-two-columns">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Acronym</th>
+                                <th>Meaning</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>ADW</td><td>Assault with a Deadly Weapon (serangan dengan senjata mematikan)</td></tr>
+                            <tr><td>ALS</td><td>Advanced Life Support (bantuan hidup lanjutan)</td></tr>
+                            <tr><td>ASAP</td><td>As Soon As Possible (sesegera mungkin)</td></tr>
+                            <tr><td>BLS</td><td>Basic Life Support (bantuan hidup dasar)</td></tr>
+                            <tr><td>BOLO</td><td>Be On the Look Out (waspadalah)</td></tr>
+                            <tr><td>CCW</td><td>Carrying a Concealed Weapon (membawa senjata tersembunyi)</td></tr>
+                            <tr><td>DOA</td><td>Dead On Arrival (meninggal saat tiba)</td></tr>
+                            <tr><td>DOB</td><td>Date of Birth (tanggal lahir)</td></tr>
+                            <tr><td>DOC</td><td>Department of Corrections (departement pemasyarakatan)</td></tr>
+                            <tr><td>DUI</td><td>Driving Under the Influence (mengemudi di bawah pengaruh alkohol)</td></tr>
+                            <tr><td>EMS</td><td>Emergency Medical Services (layanan medis darurat)</td></tr>
+                            <tr><td>FTO</td><td>Field Training Officer (petugas pelatihan lapangan)</td></tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Acronym</th>
+                                <th>Meaning</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>GOV</td><td>Government (pemerintah)</td></tr>
+                            <tr><td>GSW</td><td>Gun Shot Wound (luka tembak senjata)</td></tr>
+                            <tr><td>LVC</td><td>Lost Visual Contact (hilang kontak visual)</td></tr>
+                            <tr><td>LEO</td><td>Law Enforcement Officer (petugas penegak hukum)</td></tr>
+                            <tr><td>LOS</td><td>Length of Service (lama layanan)</td></tr>
+                            <tr><td>MDT</td><td>Mobile Data Terminal terminal data seluler</td></tr>
+                            <tr><td>PIT</td><td>Pursuit Immobilization Technique (teknik imobilisasi pengejaran)</td></tr>
+                            <tr><td>POV</td><td>Privately-Owned Vehicle (kendaraan pribadi)</td></tr>
+                            <tr><td>R&U</td><td>Read and Understand (baca dan pahami)</td></tr>
+                            <tr><td>SIW</td><td>Standard-Issue Weapon (senjata standar)</td></tr>
+                            <tr><td>VCB</td><td>Visual Contact Broken (kontak visual putus)</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="mantra" class="tab-pane">
+                <h2>Mantra</h2>
+                <ul>
+                    <li><strong>On/Off Duty</strong>: `aduty`</li>
+                    <li><strong>Buka Radio</strong>: `radio`</li>
+                    <li><strong>Penjara Tawanan</strong>: `jail "userID" "waktu"`</li>
+                    <li><strong>Menyalakan Radar</strong>: `radar`
+                        <ul>
+                            <li>Didalam mobil otot `U` untuk melihat dispatch</li>
+                            <li>Didalam mobil otot `I` untuk memindahkan</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="emote" class="tab-pane">
+                <h2>Emote</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Action</th>
+                            <th>Command</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Basic Life Support</td><td>`medbag` atau `cpr`</td></tr>
+                        <tr><td>Layer Film</td><td>`cinematic`</td></tr>
+                        <tr><td>Mediasi</td><td>`meditate`</td></tr>
+                        <tr><td>Tangan Sombong</td><td>`crossarms3`</td></tr>
+                        <tr><td>Tangan Dikepala</td><td>`surrander`</td></tr>
+                        <tr><td>Angkat Tangan</td><td>`handsup`</td></tr>
+                        <tr><td>Tangan Dibelakang</td><td>`airforce3` atau `valet3`</td></tr>
+                        <tr><td>Tangan Sopan</td><td>`guard`</td></tr>
+                        <tr><td>Jongkok</td><td>`kneel2`</td></tr>
+                        <tr><td>Peluk</td><td>`hug`</td></tr>
+                        <tr><td>Kerja Otomatis</td><td>`autoharvest`</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const tabLinks = document.querySelectorAll('.tab-link');
+            const tabPanes = document.querySelectorAll('.tab-pane');
+
+            tabLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+
+                    tabLinks.forEach(l => l.classList.remove('active'));
+                    this.classList.add('active');
+
+                    tabPanes.forEach(pane => pane.classList.remove('active'));
+                    const targetId = this.getAttribute('href').substring(1);
+                    document.getElementById(targetId).classList.add('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

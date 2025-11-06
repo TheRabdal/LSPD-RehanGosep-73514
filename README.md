@@ -82,7 +82,7 @@ Kamu berhak untuk diam, apapun yang kamu katakan dapat digunakan untuk melawan a
 
 ---
 
-## Respon Radio
+## Respons Radio
 
 *   **On Duty**: This is rookie rehan gosep reporting 10-41 at alta station
 *   **Start Patroli**: This is 73 Adam 514. We are 10-8 and ready for future update
@@ -129,7 +129,7 @@ Kamu berhak untuk diam, apapun yang kamu katakan dapat digunakan untuk melawan a
 
 ---
 
-## Kode Respon
+## Kode Respons
 
 | Kode   | Meaning                               |
 | ------ | ------------------------------------- |
@@ -148,25 +148,25 @@ Kamu berhak untuk diam, apapun yang kamu katakan dapat digunakan untuk melawan a
 
 | Code | Meaning             |
 | ---- | ------------------- |
-| IC1. | Putih               |
-| IC2. | Hitam               |
-| IC3. | Hispanik            |
-| IC4. | Timur Tengah        |
-| IC5. | Asia                |
-| IC6. | Etnis tidak diketahui |
+| IC1  | Putih               |
+| IC2  | Hitam               |
+| IC3  | Hispanik            |
+| IC4  | Timur Tengah        |
+| IC5  | Asia                |
+| IC6  | Etnis tidak diketahui |
 
 ---
 
 ## Plain English
 
-*   “Shots fired.” Tembakan dilepaskan di lokasi
-*   “Officer needs help.” Petugas dalam bahaya langsung (tertembak, dll.)
-*   “Negative.” Tidak
-*   “Officer down.” Petugas tidak berdaya
-*   “Suspect deceased.” Tersangka meninggal
-*   “Suspect tased.” Tersangka telah ditundukkan
-*   “Be on the lookout.” Orang yang dibutuhkan untuk diinterogasi
-*   “All-points bulletin.” Tersangka ingin pemberitahuan
+*   “Shots fired” : Tembakan dilepaskan di lokasi
+*   “Officer needs help” : Petugas dalam bahaya langsung (tertembak, dll.)
+*   “Negative” : Tidak
+*   “Officer down” : Petugas tidak berdaya
+*   “Suspect deceased” : Tersangka meninggal
+*   “Suspect tased” : Tersangka telah ditundukkan
+*   “Be on the lookout” : Orang yang dibutuhkan untuk diinterogasi
+*   “All-points bulletin” : Tersangka ingin pemberitahuan
 
 ---
 
