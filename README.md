@@ -202,7 +202,7 @@ Kamu berhak untuk diam, apapun yang kamu katakan dapat digunakan untuk melawan a
 | DOA     | Dead On Arrival (meninggal saat tiba)               |
 | DOB     | Date of Birth (tanggal lahir)                 |
 | DOC     | Department of Corrections (departement pemasyarakatan)     |
-| DUI     | Driving Under the Influence (mengemudi di bawah pengarub alkohol)   |
+| DUI     | Driving Under the Influence (mengemudi di bawah pengaruh alkohol)   |
 | EMS     | Emergency Medical Services (layanan medis darurat)    |
 | FTO     | Field Training Officer (petugas pelatihan lapangan)        |
 | GOV     | Government (pemerintah)                    |
