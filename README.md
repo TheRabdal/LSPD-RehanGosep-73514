@@ -88,7 +88,7 @@ Kamu berhak untuk diam, apapun yang kamu katakan dapat digunakan untuk melawan a
 *   **Start Patroli**: This is 73 Adam 514. We are 10-8 and ready for future update
 *   **Respons Situasi**: Dispatch, this is 73514 timing up with {badge number partner}, start of watch under those charger {tipe kendaraan} clearing all from 10-20 {dari mana} and now checking callsign to {badge number dilokasi}
 *   **Pengejaran Narkotika**: 73 adam 514 no doing 10-57 on suspect with 10-60 {tipe kendaraan} with {warna kendaraan} color activity 10-34 suspect at {lokasi}.
-*   - lanjutan > suspect still on {lokasi}, heading to {tujuan lokasi} maybe
+*   - lanjutan > suspect still on in {lokasi}, heading to {tujuan lokasi} maybe
 
 ---
 
