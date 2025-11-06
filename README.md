@@ -79,8 +79,8 @@ Kamu berhak untuk diam, apapun yang kamu katakan dapat digunakan untuk melawan a
 
 
 ## Update Structure
-*   **Action (Tindakan)**   : contoh: heading / belok kiri
-*   **Arah mata angin** : North / South / East / West
+*   **Action (Tindakan)**   : contoh: belok kiri / heading
+*   **Arah mata angin** : North (utara) / South (selatan) / East (timur) / West (barat)
 *   **Nama jalan**  : lokasi atau jalur
 *   **Informasi tambahan (opsional)**   : landmark, lalu lintas, deskripsi suspect
 
