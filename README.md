@@ -10,10 +10,12 @@
 
 ## Miranda Rights
 
-**English**```
+**English**
+```
 You have the right to remain silent. Anything you say can and will be used against you in a court of law. You have a right to an attorney. If you cannot afford an attorney, one will be appointed for you.
 ```
-**Indonesia**```
+**Indonesia**
+```
 kamu berhak untuk diam, apapun yang kamu katakan dapat digunakan untuk melawan anda dan dibawa ke pengadilan. Anda berhak untuk menunjuk pengacara. jika tidak ada maka kami akan menentukan seorang pengacara untuk anda.
 ```
 
